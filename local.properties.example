@@ -1,0 +1,20 @@
+# Copy this file to local.properties only when Gradle cannot discover your
+# Android SDK/NDK from Android Studio or environment variables.
+#
+# local.properties is intentionally ignored by git because it is machine-local
+# and may contain private signing paths or passwords.
+
+# Android SDK path. Android Studio usually writes this automatically.
+sdk.dir=C:/Users/<you>/AppData/Local/Android/Sdk
+
+# NyxCore release builds use the ALLVM-patched Android NDK r30 beta1.
+# Download android-ndk-r30-beta1-windows.zip from:
+# https://github.com/abcdefgjh-li/ALLVM/releases/tag/v1.2.0
+nyx.ndk.dir=D:/Android/android-ndk-r30-beta1-windows
+
+# Optional private release signing. Leave these commented for open-source demo
+# builds. Do not commit real keystores or signing passwords.
+# nyx.release.signing.storeFile=keystores/your-release.jks
+# nyx.release.signing.storePassword=
+# nyx.release.signing.keyAlias=
+# nyx.release.signing.keyPassword=
